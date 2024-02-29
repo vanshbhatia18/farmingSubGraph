@@ -1,0 +1,22 @@
+type EternalFarmingCreated @entity {
+  rewardToken: String!
+  bonusRewardToken: String!
+  virtualPool: String!
+  pool: String!
+  startTime: BigInt!
+  endTime: BigInt!
+  reward: BigInt!
+  bonusReward: BigInt!
+  rewardRate: BigInt!
+  bonusRewardRate: BigInt!
+  isDetached: Boolean
+  minRangeLength: BigInt!
+  tokenAmountForTier1: BigInt!
+  tokenAmountForTier2: BigInt!
+  tokenAmountForTier3: BigInt!
+  tier1Multiplier: BigInt!
+  tier2Multiplier: BigInt!
+  tier3Multiplier: BigInt!
+  multiplierToken: String!
+  minimalAllowedPositionWidth: BigInt!
+}
